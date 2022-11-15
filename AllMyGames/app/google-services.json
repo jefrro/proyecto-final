@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "382173952689",
+    "project_id": "allmygames-11587",
+    "storage_bucket": "allmygames-11587.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382173952689:android:b6ea6456d1a83c97498090",
+        "android_client_info": {
+          "package_name": "com.jesusfranco.proyecto.allmygames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382173952689-tc0avk4kc2298g839cjtolhn9gifom49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCedD7JPN_XaT-qz7KnR67Lxd9ixJ4oq6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382173952689-tc0avk4kc2298g839cjtolhn9gifom49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
