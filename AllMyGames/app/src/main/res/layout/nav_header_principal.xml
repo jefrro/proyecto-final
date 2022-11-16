@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/fondo_blac"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="16dp"
+        android:layout_weight="2"
+        android:padding="2dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@color/seed"
+        android:src="@drawable/logosinletra"
+        app:srcCompat="@drawable/logosinletra"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:paddingTop="10dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        tools:ignore="NestedWeights">
+    <TextView
+        android:id="@+id/txt_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CORREO del USUARIO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/txt_provider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="PROVEEDOR" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnlogout"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:backgroundTint="@color/naranja"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:paddingStart="9dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="0dp"
+        app:cornerRadius="25dp"
+        app:icon="@drawable/ic_baseline_logout_24"
+        app:iconPadding="0dp"
+        app:iconTint="@color/seed"
+        tools:ignore="TouchTargetSizeCheck" />
+</LinearLayout>
+
+</LinearLayout>

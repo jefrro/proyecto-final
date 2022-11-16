@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.jesusfranco.proyecto.allmygames.ui.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_completados"
+        android:name="com.jesusfranco.proyecto.allmygames.ui.ui.completados.CompletadosFragment"
+        android:label="@string/menu_completados"
+        tools:layout="@layout/fragment_completados" />
+
+    <fragment
+        android:id="@+id/nav_pendientes"
+        android:name="com.jesusfranco.proyecto.allmygames.ui.ui.pendientes.PendientesFragment"
+        android:label="@string/menu_pendientes"
+        tools:layout="@layout/fragment_pendientes" />
+    <fragment
+        android:id="@+id/porComprarFragment"
+        android:name="com.jesusfranco.proyecto.allmygames.ui.ui.porcomprar.PorComprarFragment"
+        android:label="@string/menu_por_comprar"
+        tools:layout="@layout/fragment_por_comprar" />
+    <fragment
+        android:id="@+id/favoritosFragment"
+        android:name="com.jesusfranco.proyecto.allmygames.ui.ui.favoritos.FavoritosFragment"
+        android:label="@string/menu_favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+</navigation>
